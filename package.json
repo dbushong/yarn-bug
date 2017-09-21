@@ -2,7 +2,9 @@
   "name": "yarn-bug",
   "version": "1.0.0",
   "description": "demonstrate .bin collisions",
-  "main": "index.js",
+  "scripts": {
+    "test": "[ `readlink node_modules/.bin/coffee` = ../coffee-script/bin/coffee ]"
+  },
   "license": "MIT",
   "dependencies": {
     "coffee-script": "^1.12.7",
