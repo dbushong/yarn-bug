@@ -1,12 +1,12 @@
 ```
 $ yarn && yarn test
-yarn install v1.0.2
+yarn install v1.3.2
 [1/4] 🔍  Resolving packages...
 [2/4] 🚚  Fetching packages...
 [3/4] 🔗  Linking dependencies...
 [4/4] 📃  Building fresh packages...
-✨  Done in 0.59s.
-yarn test v1.0.2
+✨  Done in 0.63s.
+yarn run v1.3.2
 $ [ `readlink node_modules/.bin/coffee` = ../coffee-script/bin/coffee ]
 error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
